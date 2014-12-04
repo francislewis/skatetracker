@@ -1,7 +1,7 @@
 skatetracker
 ============
 
-An Android app for skateboarders that lets them track progress by ticking off tricks they have learnt for a list.
+An Android app for skateboarders that lets them track progress by ticking off tricks they have learnt form a list.
 ============
 
 ##Aim
