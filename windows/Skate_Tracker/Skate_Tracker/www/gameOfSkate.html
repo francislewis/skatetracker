@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            gameOfSkate
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="gameOfSkate" id="gameOfSkate"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="gameOfSkate_mobileheader" class="gameOfSkate_mobileheader">
+                <h1 dsid="mobileheader">
+                    S.K.A.T.E
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="gameOfSkate_mobilecontainer" name="mobilecontainer"
+            class="gameOfSkate_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="gameOfSkate.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="gameOfSkate.js">
+                </script>
+                <!-- mobilelabel_1 -->
+                <div name="mobilelabel_1" id="gameOfSkate_mobilelabel_1" dsid="mobilelabel_1" data-role="appery_label"
+                class="gameOfSkate_mobilelabel_1">
+                    Player 1
+                </div>
+                <!-- mobiletextinput_34 -->
+                <div data-role="fieldcontain" class="gameOfSkate_mobiletextinput_34 ">
+                    <input type="text" name="mobiletextinput_34" dsid="mobiletextinput_34" value=""
+                    placeholder="Enter Player 1's Name" id="gameOfSkate_mobiletextinput_34" tabindex="14"
+                    multiple data-theme="b" class="gameOfSkate_mobiletextinput_34" />
+                </div>
+                <!-- mobilegroupedbuttons_13 -->
+                <div data-role="controlgroup" name="mobilegroupedbuttons_13" id="gameOfSkate_mobilegroupedbuttons_13"
+                dsid="mobilegroupedbuttons_13" class="gameOfSkate_mobilegroupedbuttons_13">
+                    <!-- mobilebutton_s1 --><!--
+                    --><a data-role="button" name="mobilebutton_s1" dsid="mobilebutton_s1" class="gameOfSkate_mobilebutton_s1"
+                    id="gameOfSkate_mobilebutton_s1" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="b" tabindex="7" reRender='mobilegroupedbuttons_13'>
+                    S
+                    </a><!--
+                    --><!-- mobilebutton_k1 --><!--
+                    --><a data-role="button" name="mobilebutton_k1" dsid="mobilebutton_k1" class="gameOfSkate_mobilebutton_k1"
+                    id="gameOfSkate_mobilebutton_k1" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="b" tabindex="7" reRender='mobilegroupedbuttons_13'>
+                    K
+                    </a><!--
+                    --><!-- mobilebutton_a1 --><!--
+                    --><a data-role="button" name="mobilebutton_a1" dsid="mobilebutton_a1" class="gameOfSkate_mobilebutton_a1"
+                    id="gameOfSkate_mobilebutton_a1" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="b" tabindex="7" reRender='mobilegroupedbuttons_13'>
+                    A
+                    </a><!--
+                    --><!-- mobilebutton_t1 --><!--
+                    --><a data-role="button" name="mobilebutton_t1" dsid="mobilebutton_t1" class="gameOfSkate_mobilebutton_t1"
+                    id="gameOfSkate_mobilebutton_t1" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="b" tabindex="7" reRender='mobilegroupedbuttons_13'>
+                    T
+                    </a><!--
+                    --><!-- mobilebutton_e1 --><!--
+                    --><a data-role="button" name="mobilebutton_e1" dsid="mobilebutton_e1" class="gameOfSkate_mobilebutton_e1"
+                    id="gameOfSkate_mobilebutton_e1" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="b" tabindex="7" reRender='mobilegroupedbuttons_13'>
+                    E
+                    </a>
+                </div>
+                <!-- mobilelabel_2 -->
+                <div name="mobilelabel_2" id="gameOfSkate_mobilelabel_2" dsid="mobilelabel_2" data-role="appery_label"
+                class="gameOfSkate_mobilelabel_2">
+                    Player 2
+                </div>
+                <!-- mobiletextinput_35 -->
+                <div data-role="fieldcontain" class="gameOfSkate_mobiletextinput_35 ">
+                    <input type="text" name="mobiletextinput_35" dsid="mobiletextinput_35" value=""
+                    placeholder="Enter Player 2's Name" id="gameOfSkate_mobiletextinput_35" tabindex="15"
+                    multiple data-theme="b" class="gameOfSkate_mobiletextinput_35" />
+                </div>
+                <!-- mobilegroupedbuttons_20 -->
+                <div data-role="controlgroup" name="mobilegroupedbuttons_20" id="gameOfSkate_mobilegroupedbuttons_20"
+                dsid="mobilegroupedbuttons_20" class="gameOfSkate_mobilegroupedbuttons_20">
+                    <!-- mobilebutton_s2 --><!--
+                    --><a data-role="button" name="mobilebutton_s2" dsid="mobilebutton_s2" class="gameOfSkate_mobilebutton_s2"
+                    id="gameOfSkate_mobilebutton_s2" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="d" tabindex="9" reRender='mobilegroupedbuttons_20'>
+                    S
+                    </a><!--
+                    --><!-- mobilebutton_k2 --><!--
+                    --><a data-role="button" name="mobilebutton_k2" dsid="mobilebutton_k2" class="gameOfSkate_mobilebutton_k2"
+                    id="gameOfSkate_mobilebutton_k2" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="d" tabindex="9" reRender='mobilegroupedbuttons_20'>
+                    K
+                    </a><!--
+                    --><!-- mobilebutton_a2 --><!--
+                    --><a data-role="button" name="mobilebutton_a2" dsid="mobilebutton_a2" class="gameOfSkate_mobilebutton_a2"
+                    id="gameOfSkate_mobilebutton_a2" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="d" tabindex="9" reRender='mobilegroupedbuttons_20'>
+                    A
+                    </a><!--
+                    --><!-- mobilebutton_t2 --><!--
+                    --><a data-role="button" name="mobilebutton_t2" dsid="mobilebutton_t2" class="gameOfSkate_mobilebutton_t2"
+                    id="gameOfSkate_mobilebutton_t2" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="d" tabindex="9" reRender='mobilegroupedbuttons_20'>
+                    T
+                    </a><!--
+                    --><!-- mobilebutton_e2 --><!--
+                    --><a data-role="button" name="mobilebutton_e2" dsid="mobilebutton_e2" class="gameOfSkate_mobilebutton_e2"
+                    id="gameOfSkate_mobilebutton_e2" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="d" tabindex="9" reRender='mobilegroupedbuttons_20'>
+                    E
+                    </a>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="gameOfSkate_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="gameOfSkate_mobilefooter" data-theme="f">
+                <!-- mobilebutton_8 --><!--
+                --><a data-role="button" name="mobilebutton_8" dsid="mobilebutton_8" class="gameOfSkate_mobilebutton_8"
+                style='margin-left:5px; ' id="gameOfSkate_mobilebutton_8" data-corners="true" data-icon="none"
+                data-iconpos='nowhere' x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="a" tabindex="3">
+                Trick Tracker
+                </a><!--
+                --><!-- mobilebutton_6 --><!--
+                --><a data-role="button" name="mobilebutton_6" dsid="mobilebutton_6" class="gameOfSkate_mobilebutton_6"
+                style='margin-left:5px; ' id="gameOfSkate_mobilebutton_6" data-corners="true" data-icon="none"
+                data-iconpos='nowhere' x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="a" tabindex="2">
+                Home
+                </a><!--
+                --><!-- mobilebutton_32 --><!--
+                --><a data-role="button" name="mobilebutton_32" dsid="mobilebutton_32" class="gameOfSkate_mobilebutton_32"
+                style='margin-left:5px; ' id="gameOfSkate_mobilebutton_32" data-corners="true" data-icon="none"
+                data-iconpos='nowhere' x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="a" tabindex="12">
+                New Game
+                </a>
+            </div>
+            <!-- mobilepopup_1 -->
+            <div data-role="popup" name="mobilepopup_1" dsid="mobilepopup_1" id="gameOfSkate_mobilepopup_1"
+            class="gameOfSkate_mobilepopup_1" data-corners="true" data-dismissible="true" data-overlay-theme=""
+            data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
