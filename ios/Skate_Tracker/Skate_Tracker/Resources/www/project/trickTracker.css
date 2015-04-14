@@ -1,0 +1,34 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.trickTracker_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_7 */
+.trickTracker_mobilelabel_7 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.trickTracker_mobilefooter {
+	min-height:38px;
+}
+/* mobilebutton_3 */
+#trickTracker_mobilebutton_3 {
+
+}
+.ui-btn.trickTracker_mobilebutton_3 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_2 */
+#trickTracker_mobilebutton_2 {
+
+}
+.ui-btn.trickTracker_mobilebutton_2 {
+	margin: 4px 5px 4px 5px;
+}

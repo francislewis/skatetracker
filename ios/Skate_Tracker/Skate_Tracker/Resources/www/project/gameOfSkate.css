@@ -1,0 +1,155 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.gameOfSkate_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_1 */
+.gameOfSkate_mobilelabel_1 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_34 */
+.gameOfSkate_mobiletextinput_34 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegroupedbuttons_13 */
+.ui-controlgroup.gameOfSkate_mobilegroupedbuttons_13 {
+	margin: 4px 5px 4px 5px;
+}
+.ui-controlgroup.gameOfSkate_mobilegroupedbuttons_13 .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_s1 */
+#gameOfSkate_mobilebutton_s1 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_s1 {
+
+}
+/* mobilebutton_k1 */
+#gameOfSkate_mobilebutton_k1 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_k1 {
+
+}
+/* mobilebutton_a1 */
+#gameOfSkate_mobilebutton_a1 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_a1 {
+
+}
+/* mobilebutton_t1 */
+#gameOfSkate_mobilebutton_t1 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_t1 {
+
+}
+/* mobilebutton_e1 */
+#gameOfSkate_mobilebutton_e1 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_e1 {
+
+}
+/* mobilelabel_2 */
+.gameOfSkate_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_35 */
+.gameOfSkate_mobiletextinput_35 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegroupedbuttons_20 */
+.ui-controlgroup.gameOfSkate_mobilegroupedbuttons_20 {
+	margin: 4px 5px 4px 5px;
+}
+.ui-controlgroup.gameOfSkate_mobilegroupedbuttons_20 .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_s2 */
+#gameOfSkate_mobilebutton_s2 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_s2 {
+
+}
+/* mobilebutton_k2 */
+#gameOfSkate_mobilebutton_k2 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_k2 {
+
+}
+/* mobilebutton_a2 */
+#gameOfSkate_mobilebutton_a2 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_a2 {
+
+}
+/* mobilebutton_t2 */
+#gameOfSkate_mobilebutton_t2 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_t2 {
+
+}
+/* mobilebutton_e2 */
+#gameOfSkate_mobilebutton_e2 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_e2 {
+
+}
+/* mobilefooter */
+.gameOfSkate_mobilefooter {
+	min-height:38px;
+}
+/* mobilebutton_8 */
+#gameOfSkate_mobilebutton_8 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_8 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_6 */
+#gameOfSkate_mobilebutton_6 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_6 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_32 */
+#gameOfSkate_mobilebutton_32 {
+
+}
+.ui-btn.gameOfSkate_mobilebutton_32 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilepopup_1 */
+.gameOfSkate_mobilepopup_1 {
+
+}
+div.gameOfSkate_mobilepopup_1 {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.gameOfSkate_mobilepopup_1 .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
