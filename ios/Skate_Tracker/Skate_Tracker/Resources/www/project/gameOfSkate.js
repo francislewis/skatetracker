@@ -45,6 +45,14 @@ function gameOfSkate_js() {
         'mobilebutton_a1': 'gameOfSkate_mobilebutton_a1',
         'mobilebutton_t1': 'gameOfSkate_mobilebutton_t1',
         'mobilebutton_e1': 'gameOfSkate_mobilebutton_e1',
+        'mobilecollapsblock_47': 'gameOfSkate_mobilecollapsblock_47',
+        'mobilecollapsblockheader_48': 'gameOfSkate_mobilecollapsblockheader_48',
+        'mobilecollapsblockcontent_49': 'gameOfSkate_mobilecollapsblockcontent_49',
+        'mobiletextinput_46': 'gameOfSkate_mobiletextinput_46',
+        'mobiletextinput_50': 'gameOfSkate_mobiletextinput_50',
+        'mobiletextinput_51': 'gameOfSkate_mobiletextinput_51',
+        'mobiletextinput_52': 'gameOfSkate_mobiletextinput_52',
+        'mobiletextinput_53': 'gameOfSkate_mobiletextinput_53',
         'mobilelabel_2': 'gameOfSkate_mobilelabel_2',
         'mobiletextinput_35': 'gameOfSkate_mobiletextinput_35',
         'mobilegroupedbuttons_20': 'gameOfSkate_mobilegroupedbuttons_20',
@@ -53,6 +61,14 @@ function gameOfSkate_js() {
         'mobilebutton_a2': 'gameOfSkate_mobilebutton_a2',
         'mobilebutton_t2': 'gameOfSkate_mobilebutton_t2',
         'mobilebutton_e2': 'gameOfSkate_mobilebutton_e2',
+        'mobilecollapsblock_54': 'gameOfSkate_mobilecollapsblock_54',
+        'mobilecollapsblockheader_55': 'gameOfSkate_mobilecollapsblockheader_55',
+        'mobilecollapsblockcontent_56': 'gameOfSkate_mobilecollapsblockcontent_56',
+        'mobiletextinput_61': 'gameOfSkate_mobiletextinput_61',
+        'mobiletextinput_59': 'gameOfSkate_mobiletextinput_59',
+        'mobiletextinput_60': 'gameOfSkate_mobiletextinput_60',
+        'mobiletextinput_58': 'gameOfSkate_mobiletextinput_58',
+        'mobiletextinput_57': 'gameOfSkate_mobiletextinput_57',
         'mobilebutton_8': 'gameOfSkate_mobilebutton_8',
         'mobilebutton_6': 'gameOfSkate_mobilebutton_6',
         'mobilebutton_32': 'gameOfSkate_mobilebutton_32'
@@ -116,6 +132,14 @@ function gameOfSkate_js() {
 
     function gameOfSkate_elementsExtraJS() {
         // screen (gameOfSkate) extra code
+
+        /* mobilecollapsblock_47 */
+
+        $("#gameOfSkate_mobilecollapsblock_47 .ui-collapsible-heading-toggle").attr("tabindex", "18");
+
+        /* mobilecollapsblock_54 */
+
+        $("#gameOfSkate_mobilecollapsblock_54 .ui-collapsible-heading-toggle").attr("tabindex", "23");
 
         /* mobilepopup_1 */
         $("#gameOfSkate_mobilepopup_1").popup("option", "positionTo", "window");
